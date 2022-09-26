@@ -1,5 +1,5 @@
 // MIT license
-//const fetch = require('node-fetch')
+const fetch = require('node-fetch')
 class SingleGamepad {
     constructor(index) {
         this.id = null
