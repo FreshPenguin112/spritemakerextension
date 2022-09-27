@@ -31,7 +31,7 @@ class PenguinBlocks {
     
     update() {
         if opcode === "changecostume" {
-        addCostumeAt(fetch(x), y)
+        addCostumeAt({image:x}, y)
         }
     }
                 }
